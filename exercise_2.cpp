@@ -9,7 +9,7 @@ int main() {
     //2.	Randomly generate 50 numbers
     for ( int i = 0; i < 50; i++)
     {
-        int MyNumber = std::rand();
+        int MyNumber = std::rand() % 100;
         MyTree.insertValue(MyNumber);
     }
     //3.	Insert each number into the tree
